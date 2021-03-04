@@ -1,0 +1,52 @@
+/*
+** EPITECH PROJECT, 2017
+** parser.c
+** File description:
+** 
+*/
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "struct.h"
+
+int parser(int argc, char **argv)
+{
+	int i = 0;
+	int j = 0;
+	int x = 0;
+	int y = 0;
+	char **ab;
+	char *a;
+	char *b;
+	
+	if (argc == 4) {
+		ab[x][y] = argv[1];
+		argv[2] = ab[x][y+1];
+		printf("%s\n" ,argv[1]);
+	}
+	if (argc != 4) {
+		my_putstr("Not enought argument\n");
+		return (84);
+	}
+	if (ab[x][y] == '"') {
+		x++;
+		while (ab[x][y] != '"') {
+			a[i] = ab[x][y];
+			i++;
+			x++;
+		}
+	}
+	x = 0;
+	if (ab[x][y+1] == '"') {
+		x++;
+		while (ab[x][y+1] != '"') {
+			b[j] = ab[x][y+1];
+			j++;
+			x++;
+		}
+	}
+	my_putstr(a);
+	my_putstr(b);
+	return (0);
+}

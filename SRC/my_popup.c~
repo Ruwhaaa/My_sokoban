@@ -1,0 +1,13 @@
+/*
+** EPITECH PROJECT, 2017
+** my_popup.c
+** File description:
+** popup window
+*/
+
+#include "struct.h"
+
+int my_popup(char *s)
+{
+	return (0);
+}

@@ -1,0 +1,11 @@
+/*
+** EPITECH PROJECT, 2017
+** cipher.c
+** File description:
+** cipher
+*/
+
+int cipher()
+{
+	return (0);
+}
